@@ -1,0 +1,18 @@
+version: 1
+project:
+  title: 人工智能交叉学科实践案例精析
+  toc:
+    - file: intro.md
+    - file: chapter_mt/00_index-TableOfContentsAndIntroduction.md
+      children:
+        - file: chapter_mt/01_ProblemAndBackground
+        - file: chapter_mt/02_DataConstruction
+        - file: chapter_mt/03_ModelTraining
+        - file: chapter_mt/04_ExperimentAndComparison
+        - file: chapter_mt/05_ErrorAnalysis
+        - file: chapter_mt/06_TranscriptionConnectionExtension
+        - file: chapter_mt/07_AgentSystem
+        - file: chapter_mt/08_StudentProjects
+
+site:
+  template: book-theme

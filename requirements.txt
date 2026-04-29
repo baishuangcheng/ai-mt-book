@@ -1,0 +1,20 @@
+# ===== Jupyter Book 文档系统 =====
+jupyter-book>=0.15.0
+myst-parser>=2.0.0
+
+# ===== 深度学习基础 =====
+torch>=2.0.0
+numpy>=1.23.0
+
+# ===== NLP & 机器翻译 =====
+transformers>=4.36.0
+datasets>=2.14.0
+sentencepiece>=0.1.99
+sacrebleu>=2.3.1
+
+# ===== 数据处理 =====
+pandas>=1.5.0
+
+# ===== 可选（推荐） =====
+accelerate>=0.25.0   # 加速训练
+tqdm>=4.65.0         # 进度条
